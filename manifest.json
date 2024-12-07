@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "The AI Button",
   "version": "1.0",
-  "description": "A simple extension that shows a list of website links.",
+  "description": "A simple extension that shows a list of popular AI apps.",
   "action": {
     "default_popup": "popup.html",
     "default_icon": {
