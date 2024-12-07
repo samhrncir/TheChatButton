@@ -1,2 +1,2 @@
 # TheChatButton
-Edge Extension to open AI chats
+Edge Extension to popular AI apps.
