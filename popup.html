@@ -14,8 +14,8 @@
       justify-content: center; /* Center the links beside each icon */
       margin: 5px 0;
       text-decoration: none;
-      color: #0078d7;
-      border: 1px solid #d3d3d3; /* Light grey border */
+      color: #666;
+      border: 1px solid #e0e0e0; /* Changed to light grey border */
       border-radius: 5px; /* Rounded corners */
       padding: 5px; /* Padding inside the border */
       background-color: white;
@@ -23,10 +23,12 @@
     }
     a:hover {
       text-decoration: underline;
-      border-color: #a9a9a9;  /* Darker border on hover */
+      border-color: #a9a9a9;  /* Only change border color on hover */
+      background-color: white;
+      box-shadow: 0 0 5px grey;
     }
     a:active {
-      background-color: #f0f0f0;  /* Darker background when clicked */
+      background-color: grey;  /* Darker background when clicked */
     }
     a img {
       vertical-align: middle;
@@ -34,6 +36,7 @@
     }
     h3 {
         font-weight: normal; /* Remove bold styling */
+        color: #666;
     }
     .title {
       color: grey;
@@ -77,7 +80,7 @@
     <img src="images/metaAi.png" alt="Meta AI" width="16" height="16"> Meta AI
   </a>
   <a href="https://www.perplexity.ai/" target="_blank">
-    <img src="images/perplexity.png" alt="Perplexity" width="16" height="16"> Perplexity
+    <img src="images/perplexity.png" alt="Perplexity" width="16" height="16"> perplexity
   </a>
   <a href="https://copilot.microsoft.com/" target="_blank">
     <img src="images/copilot.png" alt="Copilot" width="16" height="16"> Copilot
